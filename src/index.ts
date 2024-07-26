@@ -43,16 +43,16 @@ client.on("ready", async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1119851163530051685')
     .setType('PLAYING')
-    .setURL('https://discord.gg/YqwyCxjhJT')
-    .setName('Zsenpai Community')
+    .setURL('https://discord.gg/Unknown')
+    .setName('Unknown Community')
     .setState('Running...')
     .setDetails('The best server about bots')
     .setAssetsLargeImage('https://cdn.discordapp.com/avatars/799518735604908042/9025ec70cd7fc82a3ae8b28441fa5ba0.png?size=1024')
-    .setAssetsLargeText('Zsenpai Community')
+    .setAssetsLargeText('Unknown Community')
     .setAssetsSmallImage('https://cdn.discordapp.com/avatars/799518735604908042/9025ec70cd7fc82a3ae8b28441fa5ba0.png')
     .setAssetsSmallText('Join')
     .setStartTimestamp(dateFromTimestamp)
-    .addButton('Join', 'https://discord.gg/YqwyCxjhJT');
+    .addButton('Join', 'https://discord.gg/Unknown');
   client.user.setActivity(r);
   client.user.setPresence({ status: "idle" });
 });
